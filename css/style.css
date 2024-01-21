@@ -54,12 +54,13 @@ h3 {
   padding: 100px 50px;
 }
 .hero div h1 {
-  font-size: 8.7vw;
+  font-size: min(8.7vw, 150px);
   font-weight: bold;
   color: white;
 }
 .hero div .span0 {
   height: 12.7vw;
+  max-height: 180px;
   display: inline-block;
   vertical-align: bottom;
 }
